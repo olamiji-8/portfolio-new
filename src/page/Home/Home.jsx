@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from '../../component/NavBar/NavBar'
+import About from '../../container/About/About'
 import Logo from '../../Logo'
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <h5>I’m focused on building responsive Frontend web applications while learning & exploring other technologies.</h5>
 
         </div>
+        <About/>
     </div>
   )
 }
