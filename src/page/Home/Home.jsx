@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../../component/NavBar/NavBar'
 import About from '../../container/About/About'
+import Contact from '../../container/Contact/Contact'
 import Logo from '../../Logo'
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
 
         </div>
         <About/>
+        <Contact/>
     </div>
   )
 }
