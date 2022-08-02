@@ -3,7 +3,7 @@ import React from 'react'
 const Logo = () => {
     const mystyle = {
       color: "lightblue",
-      padding: "10px",
+      padding: "15px",
       fontSize: "large"
     };
   return (
