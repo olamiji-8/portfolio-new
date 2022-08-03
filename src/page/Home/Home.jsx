@@ -7,6 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import PersonIcon from '@mui/icons-material/Person';
+import Skills from '../../container/Skills/Skills'
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         <ContactMailIcon/>
         <PersonIcon/>
         <About/>
+        <Skills/>
         <Contact/>
         
     </div>
