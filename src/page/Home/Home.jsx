@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../page/Home/Home.css'
 import NavBar from '../../component/NavBar/NavBar'
 import About from '../../container/About/About'
 import Contact from '../../container/Contact/Contact'
@@ -11,7 +12,7 @@ import Skills from '../../container/Skills/Skills'
 
 const Home = () => {
   return (
-    <div>
+    <div className='Home'>
         <Logo/>
         <NavBar/>
         <div>

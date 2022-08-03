@@ -1,7 +1,7 @@
 .Image{
   /* padding: 10px; */
   background-color: white;
-  width: 100px;
+  width: 900px;
   height: 100px;
   display:flex;
   flex: 3fr;
