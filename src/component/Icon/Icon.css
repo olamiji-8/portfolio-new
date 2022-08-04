@@ -1,0 +1,16 @@
+/* .Icon{
+     
+    
+} */
+.Icon > LinkedInIcon > GitHubIcon > ContactMailIcon > PersonIcon{
+    border-radius: 50%;
+    border: 1px solid floralwhite;
+    width: 50;
+    height: 50;
+    padding: 10px;
+    overflow: 'hidden';
+    border-width: 3;
+    
+    background-color: rgba(52, 52, 52, 0.1);
+    justify-content: space-between;
+}

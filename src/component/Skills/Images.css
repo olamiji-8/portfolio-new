@@ -1,25 +1,26 @@
 .Image{
   /* padding: 10px; */
-  background-color: white;
+  /* background-color: lightblue; */
   width: 900px;
   height: 100px;
   display:flex;
   flex: 3fr;
   object-fit: contain;
   justify-content:space-between;
+  margin-left: 250px;
     
   
 }
 .Image > img{
      border-radius: 50%;
-     border: 1px solid floralwhite;
+     border: 1px solid lightblue;
      /* width: 50;
      height: 50; */
      padding: 10px;
      overflow: 'hidden';
      border-width: 3;
      /* border-color: 'red'; */
-     background-color: rgba(52, 52, 52, 0.1);
+     background-color: rgba(228, 133, 133, 0.1);
      justify-content: space-between;
     
     

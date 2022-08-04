@@ -5,6 +5,7 @@ const Logo = () => {
       color: "lightblue",
       padding: "15px",
       fontSize: "large"
+      
     };
   return (
     <div className=''>
