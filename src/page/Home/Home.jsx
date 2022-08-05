@@ -1,15 +1,16 @@
 import React from 'react'
-import '../../page/Home/Home.css'
 import About from '../../container/About/About'
 import Contact from '../../container/Contact/Contact'
 import Skills from '../../container/Skills/Skills'
 import Homee from '../../component/Home/Home'
+import Work from '../../container/Work/Work'
 
 const Home = () => {
   return (
-    <div className='Home'>
+    <div>
         <Homee/>
         <About/>
+        <Work/>
         <Skills/>
         <Contact/>
         

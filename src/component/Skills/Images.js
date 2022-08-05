@@ -13,14 +13,14 @@ import js from '../../../src/assets/js.png';
 const Images = () => {
   return (
     <div className="Image">
-        <img src={dart} alt='' className="icons"/>
-        <img src={flutter} alt='' className="icons"/>
-        <img src={python} alt='' className="icons"/>
-        <img src={react} alt='' className="icons"/>
-        <img src={firebase} alt='' className="icons"/>
-        <img src={html} alt='' className="icons"/>
-        <img src={css} alt='' className="icons"/>
-        <img src={js} alt='' className="icons"/>
+        <img src={dart} alt=''/>
+        <img src={flutter} alt=''/>
+        <img src={python} alt=''/>
+        <img src={react} alt=''/>
+        <img src={firebase} alt=''/>
+        <img src={html} alt=''/>
+        <img src={css} alt=''/>
+        <img src={js} alt=''/>
 
        
     </div>

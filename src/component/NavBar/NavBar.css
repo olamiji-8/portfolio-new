@@ -1,19 +1,11 @@
 .NavBar{
-    background-color:lightblue;
     display: flex;
     justify-content: space-between;
-    object-fit: contain;
     margin-left: 500px;
-    margin-right: 100px;
-    margin-top: -80px;
-    padding: 10px;
 }
 .NavBar > h5{
-        width: 100px;
-        height: 30px;
-        /* margin: 0px; */
+         margin: 0px; 
        font-size: medium;
-        font-stretch: normal;
 }
 .NavBar > button{
     background-color: blue;
@@ -21,6 +13,5 @@
     height: 30px;
     border: none;
     outline: none;
-    margin-top: 20px;
     border-radius: 3px;
 }
