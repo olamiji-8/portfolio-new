@@ -2,3 +2,6 @@
     background-color: lightblue;
     height: 500px;
 }
+.Work > p{
+    margin: 0px;
+}
