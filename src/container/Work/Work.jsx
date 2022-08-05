@@ -4,7 +4,9 @@ import "./Work.css"
 const Work = () => {
   return (
     <div className='Work'>
-
+        <p>
+            uuu
+        </p>
     </div>
   )
 }

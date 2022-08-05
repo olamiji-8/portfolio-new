@@ -2,3 +2,6 @@
     color: darkblue;
     font-size: large;
 }
+.Logo > h3{
+    margin: 0;
+}
