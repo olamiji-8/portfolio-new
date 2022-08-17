@@ -3,3 +3,21 @@
     height: 500px;
     
 }
+.para-one{
+    text-align: center;
+    margin-top: 80px;
+    font-family: cursive;
+    font-style: italic;
+}
+.para-two{
+    text-align: center;
+
+}
+.para-three{
+    text-align: center;
+}
+.para-four{
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}

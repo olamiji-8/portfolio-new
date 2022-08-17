@@ -10,10 +10,10 @@ const Homee = () => {
         <Logo/>
         <NavBar/>
         <div>
-            <h5>LET'S BUILD SOMETHING TOGETHER</h5>
-            <h3>Hi, I'm Olamiji</h3>
-            <h3>A Frontend Web Developer</h3>
-            <h5>I’m focused on building responsive Frontend web applications while learning & exploring other technologies.</h5>
+            <h4 className='para-one'>LET'S BUILD SOMETHING TOGETHER</h4>
+            <h1 className='para-two'>Hi, I'm Olamiji</h1>
+            <h1 className='para-three'>A Frontend Web Developer</h1>
+            <h4 className='para-four'>I’m focused on building responsive Frontend web applications while learning & exploring other technologies.</h4>
         </div>
         <Icon/>
     </div>
