@@ -13,14 +13,46 @@ import js from '../../../src/assets/js.png';
 const Images = () => {
   return (
     <div className="Image">
-        <img src={dart} alt=''/>
-        <img src={flutter} alt=''/>
-        <img src={python} alt=''/>
-        <img src={react} alt=''/>
-        <img src={firebase} alt=''/>
-        <img src={html} alt=''/>
-        <img src={css} alt=''/>
-        <img src={js} alt=''/>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div>
+          <img src={dart} alt=''/>
+          <h3>Dart</h3>
+          </div>
+        <div>
+          <img src={flutter} alt=''/>
+          <h3>Flutter</h3>
+          </div>
+        <div>
+          <img src={python} alt=''/>
+          <h3>Python</h3>
+          </div>
+        <div>
+          <img src={react} alt=''/>
+          <h3>React</h3>
+          </div>
+        <div>
+          <img src={firebase} alt=''/>
+          <h3>Firebase</h3>
+          </div>
+        <div>
+          <img src={html} alt=''/>
+          <h3>Html</h3>
+          </div>
+        <div>
+          <img src={css} alt=''/>
+          <h3>Css</h3>
+          </div>
+        <div>
+          <img src={js} alt=''/>
+          <h3>Javascript</h3>
+          </div>
 
        
     </div>
