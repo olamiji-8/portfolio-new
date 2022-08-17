@@ -5,8 +5,11 @@ import './About.css'
 const About = () => {
   return (
     <div className='About'>
-      <h3>ABOUT</h3>
-      <h2>Who AM I</h2>
+      <div className='carry'>
+      <h3 className='heading'>ABOUT</h3>
+      <h1 className='sub-heading'>Who AM I</h1>
+      </div>
+      
       <div>
         <span className='ola'>
         <img src={pic} alt=''/>

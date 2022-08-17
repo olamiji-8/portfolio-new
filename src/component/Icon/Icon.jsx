@@ -9,10 +9,10 @@ import PersonIcon from '@mui/icons-material/Person';
 const Icon = () => {
   return (
     <div className='Icon'>
-         <LinkedInIcon/>
-        <GitHubIcon/>
-        <ContactMailIcon/>
-        <PersonIcon/>
+         <LinkedInIcon className='Linkedin'/>
+        <GitHubIcon className='Github'/>
+        <ContactMailIcon className='Contacty'/>
+        <PersonIcon className='Person'/>
     </div>
   )
 }

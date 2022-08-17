@@ -1,12 +1,21 @@
 .About{
     background-color: rgba(165, 177, 202, 0.3);
     height: 700px;
-}
-.About > h3{
     margin: 0px;
+}
+.carry{
+    margin: 10px;
+}
+.heading{
+    text-align: center;
+    margin: 0px;
+    font-size:large;
     
-    display: flex;
     
+}
+.sub-heading{
+    text-align: center;
+    margin: 10px;
 }
 .ola{
     float: left;
