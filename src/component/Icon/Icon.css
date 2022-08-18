@@ -1,23 +1,27 @@
 .Icon{
     text-align: center;
+    margin: 30px;
+    justify-content: space-between;
 }
 .Linkedin{
     
     border-radius: 50%;
-    width: 900px;
+    width: 90px;
     height: 800px;
     
 }
 .Github{
     
-    border-radius: 70%;
-    width: 1000px;
+    border-radius: 50%;
+    width: 90px;
 }
-.Contacty{
+.Message{
     
     border-radius: 50%;
+    width: 90px;
 }
 .Person{
     
     border-radius: 50%;
+    width: 90px;
 }

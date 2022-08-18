@@ -1,18 +1,18 @@
 import React from 'react'
 import './Icon.css'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import ContactMailIcon from '@mui/icons-material/ContactMail';
-import PersonIcon from '@mui/icons-material/Person';
+import LinkedIn from '../../assets/linkedIn.png';
+import GitHub from '../../assets/github.png';
+import Message from '../../assets/message.png';
+import Person from '../../assets/person.png';
 
 
 const Icon = () => {
   return (
     <div className='Icon'>
-         <LinkedInIcon className='Linkedin'/>
-        <GitHubIcon className='Github'/>
-        <ContactMailIcon className='Contacty'/>
-        <PersonIcon className='Person'/>
+        <img src={LinkedIn} alt="" className='LinkedIn'/>
+        <img src={GitHub} alt="" className='Github'/>
+        <img src={Message} alt="" className='Message'/>
+        <img src={Person} alt="" className='Person'/>
     </div>
   )
 }
