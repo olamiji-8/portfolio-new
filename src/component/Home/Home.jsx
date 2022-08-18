@@ -11,7 +11,11 @@ const Homee = () => {
         <NavBar/>
         <div>
             <h4 className='para-one'>LET'S BUILD SOMETHING TOGETHER</h4>
-            <h1 className='para-two'>Hi, I'm Olamiji</h1>
+            <div className='pone-two'>
+            <h1 className='para-two'>Hi, I'm </h1>
+            <h1>Olamiji</h1>
+            </div>
+            
             <h1 className='para-three'>A Frontend Web Developer</h1>
             <h4 className='para-four'>I’m focused on building responsive Frontend web applications while learning & exploring other technologies.</h4>
         </div>

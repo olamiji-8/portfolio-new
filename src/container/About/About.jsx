@@ -16,7 +16,10 @@ const About = () => {
         <img src={pic} alt=''/>
         </span>
       <span className='details'>
-            <h3 className='name'>Hi I am Sotomi Olamiji</h3>
+            <div className='details-b'>
+            <h3 className='name-one'>Hi, I am</h3>
+            <h3 className='name'>Sotomi Olamiji</h3>
+            </div>
             <p><h4>Well, I have been working on web applications, which I started with Html, Css and Javascript and down to react.
             while still studying at college. Having my own projects, coded mostly in React JS, I have learned a lot while working on these projects. Now I am looking to get a job or an internship to get some experience, and am glad to be interviewing with you here.
               </h4></p>
