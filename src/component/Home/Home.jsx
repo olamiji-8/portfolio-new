@@ -13,7 +13,7 @@ const Homee = () => {
             <h4 className='para-one'>LET'S BUILD SOMETHING TOGETHER</h4>
             <div className='pone-two'>
             <h1 className='para-two'>Hi, I'm </h1>
-            <h1>Olamiji</h1>
+            <h1 className='nme'>Olamiji</h1>
             </div>
             
             <h1 className='para-three'>A Frontend Web Developer</h1>

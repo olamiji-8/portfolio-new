@@ -25,3 +25,36 @@
     display: flex;
     margin-left: 550px;
 }
+.nme{
+    margin-left: 10px;
+    cursor:pointer;
+    float: left;
+    transition: transform 100ms ease-in;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+@keyframes change{
+    0%{
+        color: blue;
+        
+    }
+    2%{
+        color: darkblue;
+    }
+    4%{
+        color: lightblue;
+    }
+    6%{
+        color: white;
+    }
+    8%{
+        color: darkgray;
+    }
+    10%{
+        color: blue;
+    }
+
+}

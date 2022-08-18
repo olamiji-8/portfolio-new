@@ -58,6 +58,8 @@
     margin-left: 1110px;
 }
 .name{
+    cursor: pointer;
+    margin-left: 10px;
     --colorA:rgb(0,191,255);
     --colorB:hsl(195, 72%, 65%);
     --colorC:rgb(135,206,250);
