@@ -58,8 +58,53 @@
     margin-left: 1090px;
 }
 .name{
-    color: deepskyblue;
+    --colorA:rgb(0,191,255);
+    --colorB:hsl(195, 72%, 65%);
+    --colorC:rgb(135,206,250);
+    --colorD:rgb(176,196,222);
+    --colorE:#89CFF0;
+    --colorF:lightblue;
+    --colorG:#F0FFFF;
+    --colorH:rgb(231,254,255);
+    
+    
+    animation-name: changeColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
 }
+@keyframes changeColor{
+    0%{
+        color: var(--colorA);
+        
+    }
+    10%{
+        
+        color: var(--colorB);
+    }
+    30%{
+        color: var(--colorC);
+    }
+    40%{
+        color: var(--colorD);
+    }
+    60%{
+        color: var(--colorE);
+    }
+    70%{
+        color:var(--colorF)
+    }
+    90%{
+        color: var(--colorG);
+    }
+    100%{
+        color: var(--colorH);
+    }
+
+}
+
+    
+
 .hone{
     margin-left: 50px;
 }
