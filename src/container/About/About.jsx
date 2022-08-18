@@ -1,13 +1,14 @@
 import React from 'react'
 import pic from '../../assets/ola.jpg'
 import './About.css'
+import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 
 const About = () => {
   return (
     <div className='About'>
       <div className='carry'>
-      <h3 className='heading'>ABOUT</h3>
-      <h1 className='sub-heading'>Who AM I</h1>
+      <h1 className='heading'>ABOUT</h1>
+      <h2 className='sub-heading'>Who AM I</h2>
       </div>
       
       <div>
@@ -15,10 +16,15 @@ const About = () => {
         <img src={pic} alt=''/>
         </span>
       <span className='details'>
-            <h5>Hi I am Sotomi Olamiji</h5>
-            <p><h5>Well, I have been working on web applications, which I started with Htnl, Css and Javascript and down to react.
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt quisquam quod harum, molestias commodi enim natus, ipsum architecto voluptatum ad atque modi? Tempore dolorem error cumque quos asperiores quod ullam?
-              </h5></p>
+            <h3 className='name'>Hi I am Sotomi Olamiji</h3>
+            <p><h4>Well, I have been working on web applications, which I started with Html, Css and Javascript and down to react.
+            while still studying at college. Having my own projects, coded mostly in React JS, I have learned a lot while working on these projects. Now I am looking to get a job or an internship to get some experience, and am glad to be interviewing with you here.
+              </h4></p>
+              <h4>These are some qualities that I think sets me apart from other candidates</h4>
+              
+              <h4 className='hone'>One of the things that distinguish me from other candidates is that I am able to remain calm and focused no matter how difficult the task. I always try to stay positive and find a way out. I am sure that everything happens for a reason and that any mistake can be fixed.</h4>
+              <h4 className='hone'>I am a quick learner and constantly improve my skills not only in professional but also in multiple other fields. If hired for the position, I will continue to learn and transfer obtained knowledge and skills to other team members.</h4>
+              <h4 className='hone'>You will never find a more disciplined person. I am never late and know how to value the time of other people. Especially in the engineering field, where everything should be clear, structured, and meet requirements.</h4>
       </span>
         
       </div>  
