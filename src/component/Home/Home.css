@@ -74,7 +74,13 @@
             background-color: yellow;
         }
         .para-one{
-            text-align: center;
-            color: brown;
+            margin-left: 150px;
+        }
+        .para-three{
+            margin-left: 140px;
+        }
+        .para-four{
+            margin-left: 550px;
+            margin-right: 350px;
         }
     }
