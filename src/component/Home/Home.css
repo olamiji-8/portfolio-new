@@ -1,60 +1,80 @@
-.Home{
-    background-color:lightblue ;
-    height: 500px;
-    
-}
-.para-one{
-    text-align: center;
-    margin-top: 80px;
-    font-family: cursive;
-    font-style: italic;
-}
-.para-two{
-    text-align: center;
 
-}
-.para-three{
-    text-align: center;
-}
-.para-four{
-    text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
-}
-.pone-two{
-    display: flex;
-    margin-left: 550px;
-}
-.nme{
-    margin-left: 10px;
-    cursor:pointer;
-    float: left;
-    transition: transform 100ms ease-in;
-    animation-name: change;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
 
-}
-@keyframes change{
-    0%{
-        color: blue;
+    .Home{
+        background-color:lightblue;
+        height: 500px;
+        }
         
+    
+    .para-one{
+        text-align: center;
+        margin-top: 80px;
+        font-family: cursive;
+        font-style: italic;
     }
-    2%{
-        color: darkblue;
+    .para-two{
+        text-align: center;
+    
     }
-    4%{
-        color: lightblue;
+    .para-three{
+        text-align: center;
     }
-    6%{
-        color: white;
+    .para-four{
+        text-align: center;
+        margin-left: 350px;
+        margin-right: 350px;
     }
-    8%{
-        color: darkgray;
+    .pone-two{
+        display: flex;
+        margin-left: 550px;
     }
-    10%{
-        color: blue;
+    .nme{
+        margin-left: 10px;
+        cursor:pointer;
+        float: left;
+        transition: transform 100ms ease-in;
+        animation-name: change;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+    
     }
+    @keyframes change{
+        0%{
+            color: blue;
+            
+        }
+        2%{
+            color: darkblue;
+        }
+        4%{
+            color: lightblue;
+        }
+        6%{
+            color: white;
+        }
+        8%{
+            color: darkgray;
+        }
+        10%{
+            color: blue;
+        }
+    
+    }
+    
 
-}
+
+    /* desktop-1200px
+    laptop-992px
+    tablet-768px
+    phone-480px */
+
+    @media (max-width:1200px){
+        .Home{
+            background-color: yellow;
+        }
+        .para-one{
+            text-align: center;
+            color: brown;
+        }
+    }
