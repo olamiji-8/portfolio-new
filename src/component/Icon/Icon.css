@@ -1,27 +1,15 @@
 .Icon{
-    text-align: center;
-    margin: 30px;
-    justify-content: space-between;
-}
-.Linkedin{
-    
-    border-radius: 50%;
-    width: 90px;
-    height: 800px;
+    display: flex;
+    margin-right: 500px;
+    margin-left: 500px;
     
 }
-.Github{
-    
-    border-radius: 50%;
-    width: 90px;
+.imgs{
+    border-radius:50px;
+    height: 100px;
+    width: 100px;
 }
-.Message{
-    
-    border-radius: 50%;
-    width: 90px;
-}
-.Person{
-    
-    border-radius: 50%;
-    width: 90px;
+.Icon > .imgs:hover{
+object-fit: fill;
+
 }

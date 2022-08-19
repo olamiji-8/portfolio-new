@@ -9,10 +9,10 @@ import Person from '../../assets/person.png';
 const Icon = () => {
   return (
     <div className='Icon'>
-        <img src={LinkedIn} alt="" className='LinkedIn'/>
-        <img src={GitHub} alt="" className='Github'/>
-        <img src={Message} alt="" className='Message'/>
-        <img src={Person} alt="" className='Person'/>
+        <img src={LinkedIn} alt="" className='imgs'/>
+        <img src={GitHub} alt="" className='imgs'/>
+        <img src={Message} alt="" className='imgs'/>
+        <img src={Person} alt="" className='imgs'/>
     </div>
   )
 }
