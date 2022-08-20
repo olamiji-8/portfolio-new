@@ -68,8 +68,22 @@
     laptop-992px
     tablet-768px
     phone-480px */
-
-    @media (max-width:1200px){
+    /* @media (max-width:1700px){
+        .Home{
+            background-color:lightblue;
+        }
+        .para-one{
+            margin-left: 150px;
+        }
+        .para-three{
+            margin-left: 140px;
+        }
+        .para-four{
+            margin-left: 550px;
+            margin-right: 350px;
+        }
+    } */
+    @media (max-width:1200px) and (min-width:992px){
         .Home{
             background-color: yellow;
         }
@@ -82,5 +96,28 @@
         .para-four{
             margin-left: 550px;
             margin-right: 350px;
+        }
+    }
+    @media (max-width:992px) and (min-width:78px){
+        .Home{
+            background-color: yellow;
+        }
+        .para-one{
+            margin-left: 150px;
+            margin-top: 40px;
+        }
+        .pone-two{
+            margin-left: 470px;
+            font-size: 14px;
+        }
+        .para-three{
+            margin-left: 140px;
+            margin-top: -20px;
+            font-size: 25px;
+        }
+        .para-four{
+            margin-left: 450px;
+            margin-right: 350px;
+            margin-top: -30px;
         }
     }
