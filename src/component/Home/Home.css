@@ -108,23 +108,24 @@
             background-color: green;
         }
         .para-one{
-            margin-left: 150px;
-            margin-top: 40px;
+            margin-left: -170px;
+            margin-top: -20px;
+            font-size: 2.1vw;
         }
         .pone-two{
-            margin-left: 470px;
-            font-size: 14px;
+            margin-left: 250px;
+            font-size: 2.2vw;
+            margin-top: -10px;
         }
         .para-three{
-            margin-left: 140px;
-            margin-top: -20px;
-            font-size: 25px;
+            margin-left: -230px;
+            margin-top: -30px;
+            font-size:3.3vw;
         }
         .para-four{
-            margin-left: 450px;
-           display: flex;
             margin-top: -30px;
-            font-size: smaller;
+            font-size: 2vw;
+            margin-left: 202px;
             
         }
     }
