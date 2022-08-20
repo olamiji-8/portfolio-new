@@ -157,23 +157,27 @@
             background-color: purple;
         }
         .para-one{
-            margin-left: 150px;
-            margin-top: 40px;
+            margin-left: 10px;
+            margin-top: -20px;
+            font-size: 2vw;
         }
         .pone-two{
-            margin-left: 360px;
-            font-size: 14px;
+            margin-left: 120px;
+            font-size: 4vw;
+            margin-top: -10px;
         }
         .para-three{
-            margin-left: 140px;
-            margin-top: -20px;
-            font-size: 25px;
+            margin-left: 10px;
+            margin-top: -30px;
+            font-size:3.7vw;
         }
         .para-four{
-            margin-left: 350px;
-            margin-right: 230px;
+           display: flex;
             margin-top: -30px;
-            font-size: smaller;
+            font-size: 2vw;
+            margin-left: 120px;
+            text-align: center;
+            
         }
     }
     
