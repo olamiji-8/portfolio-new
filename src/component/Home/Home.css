@@ -102,8 +102,9 @@
             margin-right: 350px;
         }
     }
-    @media (max-width:992px){
+    @media (max-width:992px)and (min-width:768px){
         .Home{
+            width: 100vw;
             background-color: green;
         }
         .para-one{
@@ -121,13 +122,13 @@
         }
         .para-four{
             margin-left: 450px;
-            margin-right: 350px;
+           display: flex;
             margin-top: -30px;
             font-size: smaller;
             
         }
     }
-    @media (max-width:768px){
+    @media (max-width:768px)and (min-width:480px){
         .Home{
             background-color: darkred;
         }
@@ -151,3 +152,28 @@
             font-size: smaller;
         }
     }
+    @media (max-width:480px)and (min-width:300px){
+        .Home{
+            background-color: purple;
+        }
+        .para-one{
+            margin-left: 150px;
+            margin-top: 40px;
+        }
+        .pone-two{
+            margin-left: 360px;
+            font-size: 14px;
+        }
+        .para-three{
+            margin-left: 140px;
+            margin-top: -20px;
+            font-size: 25px;
+        }
+        .para-four{
+            margin-left: 350px;
+            margin-right: 230px;
+            margin-top: -30px;
+            font-size: smaller;
+        }
+    }
+    
