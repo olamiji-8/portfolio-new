@@ -133,23 +133,24 @@
             background-color: darkred;
         }
         .para-one{
-            margin-left: 150px;
-            margin-top: 40px;
+            margin-left: -170px;
+            margin-top: -20px;
+            font-size: 2vw;
         }
         .pone-two{
-            margin-left: 360px;
-            font-size: 14px;
+            margin-left: 180px;
+            font-size: 2vw;
+            margin-top: -10px;
         }
         .para-three{
-            margin-left: 140px;
-            margin-top: -20px;
-            font-size: 25px;
+            margin-left: -100px;
+            margin-top: -30px;
+            font-size:3vw;
         }
         .para-four{
-            margin-left: 350px;
-            margin-right: 230px;
             margin-top: -30px;
-            font-size: smaller;
+            font-size: 1.7vw;
+            margin-left: 202px;
         }
     }
     @media (max-width:480px)and (min-width:300px){
