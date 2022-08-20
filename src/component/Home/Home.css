@@ -104,28 +104,22 @@
     }
     @media (max-width:992px)and (min-width:768px){
         .Home{
-            width: 100vw;
             background-color: green;
         }
         .para-one{
-            margin-left: -170px;
-            margin-top: -20px;
-            font-size: 2.1vw;
+            margin-left: 0px;
         }
         .pone-two{
-            margin-left: 250px;
-            font-size: 2.2vw;
-            margin-top: -10px;
+            margin-left:400px;
+            font-size: 1.1vw;
         }
         .para-three{
-            margin-left: -230px;
-            margin-top: -30px;
-            font-size:3.3vw;
+            margin-left: 0px; 
+            
         }
         .para-four{
-            margin-top: -30px;
-            font-size: 2vw;
-            margin-left: 202px;
+            margin-left: 400px;
+            margin-right: 500px;
             
         }
     }
