@@ -1,9 +1,4 @@
 .Work{
     background-color: lightblue;
-    height: 100vh;
-    width: 100vw;
-}
-.project > img{
-    width: 1000px;
-    height: 7000px;
+    height: 500px;
 }
