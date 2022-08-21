@@ -3,6 +3,7 @@
     justify-content: space-between;
     margin-left: 300px;
     margin-right: 100px;
+    cursor: pointer;
 }
 .NavBar > h5{
          margin: 0px; 
@@ -16,4 +17,5 @@
     outline: none;
     border-radius: 3px;
     color: white;
+    cursor: pointer;
 }
