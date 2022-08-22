@@ -5,7 +5,7 @@ const Logo = () => {
    return (
     <div className='Logo'>
       <Router>
-      <Link to='/'>
+      <Link style={{textDecoration: 'none'}} to='/'>
       <h3>OLAPELU</h3>
       </Link>
       </Router>
