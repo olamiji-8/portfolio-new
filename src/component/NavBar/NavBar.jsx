@@ -10,10 +10,9 @@ const NavBar = () => {
         <h5>Work</h5>
         <h5>Skills</h5>
         <h5>Contact</h5>
-        <div>
           <a href={resume}><button>Resume</button></a>
         
-        </div>
+       
         
         
     </div>

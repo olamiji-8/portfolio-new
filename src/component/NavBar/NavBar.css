@@ -9,7 +9,7 @@
          margin: 0px; 
        font-size: medium;
 }
-.NavBar > button{
+.NavBar > a >button{
     background-color: darkblue;
     width: 80px;
     height: 30px;
