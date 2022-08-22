@@ -1,4 +1,4 @@
-import { Link } from '@mui/material'
+import { BrowserRouter } from 'react-router-dom'
 import React from 'react'
 import './NavBar.css'
 
@@ -9,9 +9,8 @@ const NavBar = () => {
         <h5>Work</h5>
         <h5>Skills</h5>
         <h5>Contact</h5>
-        <Link>
+        
         <button>Resume</button>
-        </Link>
         
     </div>
   )
