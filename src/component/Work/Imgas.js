@@ -3,11 +3,11 @@ import Enaira from '../../assets/E-naira.png';
 import portfolio  from'../../assets/portfolio.png';
 import blog from'../../assets/blog.png';
 import Airbnb from '../../assets/Airbnb.png';
-import './Images.css'
+import './Imgas.css'
 
-const Images = () => {
+const Imgas = () => {
   return (
-    <div className='project'>
+    <div className='projects'>
         <div className='Enaira'>
           <img src={Enaira} alt=''/>
           </div>
@@ -24,4 +24,4 @@ const Images = () => {
   )
 }
 
-export default Images
+export default Imgas

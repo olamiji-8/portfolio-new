@@ -1,0 +1,9 @@
+.projects{
+    width: 100vw;
+  display: flex;
+  justify-content:space-between;
+}
+.projects > .blog {
+    width: -800px;
+    height: max-content;
+}
