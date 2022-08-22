@@ -22,15 +22,16 @@
       padding: 30px;
       border-radius: 10px;
       overflow: hidden; 
-      box-shadow:2px 2px 18px 4px rgba(0, 0, 0, 0.75);
+      box-shadow:1px 2px 18px 4px rgba(0, 0, 0, 0.75);
       transition: transform 100ms ease-in;
       cursor:pointer;
+      margin-left: 40px;
 }
 
 .ola > img{
-    width: 400px;
+    width: 300px;
     height: 500px;
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -60px;
     
 }
@@ -39,7 +40,7 @@
 }
 .details{
     float: right;
-    margin-left: 500px;
+    margin-left: 450px;
     margin-top: -500px;
 }
 .btn-about > button {
