@@ -7,7 +7,7 @@ import Icon from '../Icon/Icon'
 const Homee = () => {
   return (
     <div className='Home'>
-        <Logo/>
+      <Logo/>
         <NavBar/>
         <div>
             <h4 className='para-one'>LET'S BUILD SOMETHING TOGETHER</h4>
