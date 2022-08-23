@@ -18,7 +18,7 @@ const Contact = () => {
       });
     };
     
-  }
+
   return (
     <div className='Contact' id='contact'>
         <div>
@@ -44,7 +44,7 @@ const Contact = () => {
           </form>     
         </div>
     </div>
-  )
-}
+  );
 
+  };
 export default Contact
