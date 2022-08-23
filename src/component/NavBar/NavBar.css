@@ -5,9 +5,12 @@
     margin-right: 100px;
     cursor: pointer;
 }
-.NavBar > h5{
+.NavBar > a > h5{
          margin: 0px; 
        font-size: medium;
+}
+.NavBar > a:active{
+    color: blue;
 }
 .NavBar > a >button{
     background-color: darkblue;
