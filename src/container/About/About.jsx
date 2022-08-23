@@ -2,6 +2,7 @@ import React from 'react'
 import pic from '../../assets/ola.jpg'
 import './About.css'
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
+import Work from '../Work/Work';
 
 const About = () => {
   return (
@@ -31,8 +32,11 @@ const About = () => {
       </span>
         
       </div>  
-        <div className='btn-about' id='about'>
+        <div className='btn-about'>
+          
           <button>Check out my project</button>
+         
+          
         </div>  
         
     </div>
