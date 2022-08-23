@@ -33,9 +33,9 @@ const About = () => {
         
       </div>  
         <div className='btn-about'>
-          
+          <a href='#work'>
           <button>Check out my project</button>
-         
+          </a>
           
         </div>  
         
