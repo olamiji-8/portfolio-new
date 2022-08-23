@@ -4,10 +4,8 @@ import mobile from '../../../src/assets/mobile.png';
 import '../Contact/Contact.css'
 
 const Contact = () => {
-    const sendEmail =(e) =>{
-    e.preventDefault();
-      e.target.reset()
-    };
+    
+    
     
 
   return (
@@ -27,7 +25,7 @@ const Contact = () => {
    
         </div>
         <div className='info'>
-          <form action="https://formsubmit.co/el/tiwote" method="POST" onSubmit={sendEmail}>
+          <form action="https://formspree.io/f/xqkjaplw" method="POST">
           <input type="text"  placeholder='Your Name' name='name' required/>
             <input type="email" placeholder='Your Email' name='email' required/>
             <textarea rows="4" cols="500" placeholder='Your Message' name='message' required></textarea>
