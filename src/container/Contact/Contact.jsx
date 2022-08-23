@@ -28,9 +28,9 @@ const Contact = () => {
         </div>
         <div className='info'>
           <form action="https://formsubmit.co/el/tiwote" method="POST" onSubmit={sendEmail}>
-          <input type="text"  placeholder='Your Name' name='name'/>
-            <input type="email" placeholder='Your Email' name='email'/>
-            <textarea rows="4" cols="500" placeholder='Your Message' name='message'></textarea>
+          <input type="text"  placeholder='Your Name' name='name' required/>
+            <input type="email" placeholder='Your Email' name='email' required/>
+            <textarea rows="4" cols="500" placeholder='Your Message' name='message' required></textarea>
             <button className='btn-msg'>Send Message</button>
           </form>     
         </div>
