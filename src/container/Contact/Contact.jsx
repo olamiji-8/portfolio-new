@@ -22,8 +22,8 @@ const Contact = () => {
    
         </div>
         <div className='info'>
-            <input type="text"  placeholder='Your Name' name='entry="0" '/>
-            <input type="gmail" placeholder='Your Gmail' name='entry="3"'/>
+            <input type="text"  placeholder='Your Name' />
+            <input type="gmail" placeholder='Your Gmail'/>
             <textarea rows="4" cols="500" placeholder='Your Message'></textarea>
             <button className='btn-msg'>Send Message</button>
         </div>
