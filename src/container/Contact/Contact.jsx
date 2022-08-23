@@ -4,7 +4,6 @@ import mobile from '../../../src/assets/mobile.png';
 import '../Contact/Contact.css'
 
 const Contact = () => {
-  <form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLScXiwmupan0afRd33TWLCFdJ5Yei6S4szbhI5-zr12rIUmgjA/formResponse?edit2=2_ABaOnucF52AYLt-vlFhSomIzXdzSOGqqE7FQjyN7o8iyFJ8BeSNjGrcIKz5eb8Fhgg'/>
   return (
     <div className='Contact' id='contact'>
         <div>
