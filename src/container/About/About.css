@@ -44,7 +44,7 @@
     margin-left: 450px;
     margin-top: -500px;
 }
-.btn-about  > button {
+.btn-about > a > button {
     background-color: darkblue;
     width: 200px;
     height: 50px;

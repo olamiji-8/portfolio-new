@@ -33,8 +33,8 @@ const About = () => {
       </div>  
         <div className='btn-about'>
           
-          <button>Check out my project</button>
-         
+          
+         <a href='#work'><button>Check out my project</button></a>
           
         </div>  
         
