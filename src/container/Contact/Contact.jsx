@@ -10,7 +10,7 @@ const Contact = () => {
     const sendEmail =(e) =>{
     e.preventDefault();
 
-    emailjs.sendForm('Gmail', 'template_3vc0ccs', form.current, 'w6funta2lC9bYLfDw')
+    emailjs.send('Gmail', 'template_3vc0ccs', form.current, 'w6funta2lC9bYLfDw')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -38,9 +38,9 @@ const Contact = () => {
         </div>
         <div className='info'>
           <form ref={form} onSubmit={sendEmail}>
-          <input type="text"  placeholder='Your Name' name='Name'/>
-            <input type="email" placeholder='Your Email' name='Email'/>
-            <textarea rows="4" cols="500" placeholder='Your Message' name='Message'></textarea>
+          <input type="text"  placeholder='Your Name' name='name'/>
+            <input type="email" placeholder='Your Email' name='email'/>
+            <textarea rows="4" cols="500" placeholder='Your Message' name='message'></textarea>
             <button className='btn-msg'>Send Message</button>
           </form>     
         </div>
