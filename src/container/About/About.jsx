@@ -2,8 +2,6 @@ import React from 'react'
 import pic from '../../assets/ola.jpg'
 import './About.css'
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { HashRouter as Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -34,10 +32,7 @@ const About = () => {
         
       </div>  
         <div className='btn-about' id='about'>
-          <Router>
-          <Link style={{textDecoration: 'none'}} to= '#about' smooth><button>Check out my project</button></Link>
-          </Router>
-          
+          <button>Check out my project</button>
         </div>  
         
     </div>
