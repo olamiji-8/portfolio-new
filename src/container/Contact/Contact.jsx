@@ -1,21 +1,11 @@
-import React, {useRef} from 'react'
+import React from 'react'
 import email from '../../../src/assets/email.png';
 import mobile from '../../../src/assets/mobile.png';
-import emailjs from 'emailjs-com';
 import '../Contact/Contact.css'
 
 const Contact = () => {
-    const form = useRef();
-
     const sendEmail =(e) =>{
     e.preventDefault();
-
-    emailjs.send('Gmail', 'template_3vc0ccs', form.current, 'w6funta2lC9bYLfDw')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
       e.target.reset()
     };
     
@@ -37,7 +27,7 @@ const Contact = () => {
    
         </div>
         <div className='info'>
-          <form action="https://formsubmit.co/your@email.com" method="POST">
+          <form action="https://formsubmit.co/el/tiwote" method="POST" onSubmit={sendEmail}>
           <input type="text"  placeholder='Your Name' name='name'/>
             <input type="email" placeholder='Your Email' name='email'/>
             <textarea rows="4" cols="500" placeholder='Your Message' name='message'></textarea>
