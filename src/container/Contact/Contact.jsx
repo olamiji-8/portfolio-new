@@ -1,9 +1,21 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import email from '../../../src/assets/email.png';
 import mobile from '../../../src/assets/mobile.png';
+import emailjs from '@emailjs/browser';
 import '../Contact/Contact.css'
 
 const Contact = () => {
+  function sendEmail(e){
+    e.preventDefault();
+
+    emailjs.sendForm('Gmail', 'template_3vc0ccs', form.current, 'w6funta2lC9bYLfDw')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    
+  }
   return (
     <div className='Contact' id='contact'>
         <div>
@@ -21,7 +33,7 @@ const Contact = () => {
    
         </div>
         <div className='info'>
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
           <input type="text"  placeholder='Your Name' />
             <input type="email" placeholder='Your Email'/>
             <textarea rows="4" cols="500" placeholder='Your Message'></textarea>
