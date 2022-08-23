@@ -11,10 +11,10 @@ const NavBar = () => {
   return (
     <div className='NavBar'>
       <Router>
-            <Link to= '#about' smooth><h5>About</h5></Link>
-            <Link to= '#work' smooth><h5>Work</h5></Link>
-            <Link to= '#skills' smooth><h5>Skills</h5></Link>
-            <Link to= '#contact'smooth><h5>Contact</h5></Link>    
+            <Link style={{textDecoration: 'none'}} to= '#about' smooth><h5>About</h5></Link>
+            <Link style={{textDecoration: 'none'}} to= '#work' smooth><h5>Work</h5></Link>
+            <Link style={{textDecoration: 'none'}} to= '#skills' smooth><h5>Skills</h5></Link>
+            <Link style={{textDecoration: 'none'}} to= '#contact'smooth><h5>Contact</h5></Link>    
       </Router>
         
         
