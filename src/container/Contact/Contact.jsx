@@ -5,7 +5,9 @@ import emailjs from '@emailjs/browser';
 import '../Contact/Contact.css'
 
 const Contact = () => {
-  function sendEmail(e){
+    const form = useRef();
+
+    const sendEmail =(e) =>{
     e.preventDefault();
 
     emailjs.sendForm('Gmail', 'template_3vc0ccs', form.current, 'w6funta2lC9bYLfDw')
@@ -14,6 +16,7 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+    };
     
   }
   return (
