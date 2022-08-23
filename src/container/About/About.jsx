@@ -5,7 +5,7 @@ import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 
 const About = () => {
   return (
-    <div className='About'>
+    <div className='About' id='about'>
       <div className='carry'>
       <h1 className='heading'>ABOUT</h1>
       <h2 className='sub-heading'>Who AM I</h2>
