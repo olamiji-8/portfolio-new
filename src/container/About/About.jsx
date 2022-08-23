@@ -2,7 +2,6 @@ import React from 'react'
 import pic from '../../assets/ola.jpg'
 import './About.css'
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
-import Work from '../Work/Work';
 
 const About = () => {
   return (
@@ -33,9 +32,9 @@ const About = () => {
         
       </div>  
         <div className='btn-about'>
-          <a href='#work'>
+          
           <button>Check out my project</button>
-          </a>
+         
           
         </div>  
         
