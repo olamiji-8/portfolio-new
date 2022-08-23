@@ -1,4 +1,4 @@
-import {BrowserRouter as Router,Link} from 'react-router-dom';
+import {BrowserRouter as Router,Link,} from 'react-router-dom';
 import React from 'react'
 import "./Logo.css"
 const Logo = () => {
@@ -10,7 +10,8 @@ const Logo = () => {
       </Link>
       </Router>
       
-        
+      
+
     </div>
   )
 }
