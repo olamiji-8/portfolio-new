@@ -1,7 +1,7 @@
 import React, {useRef} from 'react'
 import email from '../../../src/assets/email.png';
 import mobile from '../../../src/assets/mobile.png';
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 import '../Contact/Contact.css'
 
 const Contact = () => {
@@ -16,6 +16,7 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset()
     };
     
 
