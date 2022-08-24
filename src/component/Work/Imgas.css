@@ -7,3 +7,7 @@
     width: -800px;
     height: max-content;
 }
+.timage > img {
+  width:30vw ;
+  height: 50vh;
+}

@@ -3,21 +3,22 @@ import Enaira from '../../assets/E-naira.png';
 import portfolio  from'../../assets/portfolio.png';
 import blog from'../../assets/blog.png';
 import Airbnb from '../../assets/Airbnb.png';
+import ola from  '../../assets/ola.jpg';
 import './Imgas.css'
 
 const Imgas = () => {
   return (
     <div className='projects'>
-        <div className='Enaira'>
+        <div className='timage'>
           <img src={Enaira} alt=''/>
           </div>
-          <div className='portfolio'>
+          <div className='timage'>
           <img src={portfolio} alt=''/>
           </div>
-          <div className='blog'>
+          <div className='timage'>
           <img src={blog} alt=''/>
           </div>
-          <div className='Airbnb'>
+          <div className='timage'>
           <img src={Airbnb} alt=''/>
           </div>
     </div>
