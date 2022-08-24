@@ -1,13 +1,14 @@
 .projects{
     width: 900px;
-  display: flex;
+    grid-template-columns: repeat(3, 1fr);
   justify-content:space-between;
 }
-.projects > .blog {
-    width: -800px;
-    height: max-content;
-}
+
 .timage > img {
   width:30vw ;
   height: 50vh;
+}
+.timages > img{
+  width: 30vw;
+  height:50vh;
 }

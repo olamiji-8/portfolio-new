@@ -3,7 +3,6 @@ import Enaira from '../../assets/E-naira.png';
 import portfolio  from'../../assets/portfolio.png';
 import blog from'../../assets/blog.png';
 import Airbnb from '../../assets/Airbnb.png';
-import ola from  '../../assets/ola.jpg';
 import './Imgas.css'
 
 const Imgas = () => {
@@ -18,7 +17,7 @@ const Imgas = () => {
           <div className='timage'>
           <img src={blog} alt=''/>
           </div>
-          <div className='timage'>
+          <div className='timages'>
           <img src={Airbnb} alt=''/>
           </div>
     </div>
