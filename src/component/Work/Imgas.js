@@ -21,12 +21,12 @@ const Imgas = () => {
           <div className='timage'>
           <img src={blog} alt=''/>
           <h3>Blog</h3>
-          <h5>This is a blog website, where articles are posted.</h5>
+          <h5 className='move'>This is a blog website, where articles are posted.</h5>
           </div>
           <div className='timage'>
           <img src={Airbnb} alt=''/>
           <h3>Clone-Airbnb</h3>
-          <h5 >This is a clone Airbnb project</h5>
+          <h5 className='move' >This is a clone Airbnb project</h5>
           </div>
     </div>
   )

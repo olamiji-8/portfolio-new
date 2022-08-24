@@ -30,3 +30,6 @@
   font-style: italic;
   color:darkgray;
 }
+.timage > .move{
+  text-align: center;
+}
