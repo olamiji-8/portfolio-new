@@ -3,13 +3,10 @@
     grid-template-columns: repeat(3, 1fr);
  gap: 3rem;
   display: grid;
+  margin-top: 30px;
 }
 
 .timage > img {
   width:30vw ;
   height: 50vh;
-}
-.timages > img{
-  width: 30vw;
-  height:50vh;
 }

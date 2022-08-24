@@ -17,7 +17,7 @@ const Imgas = () => {
           <div className='timage'>
           <img src={blog} alt=''/>
           </div>
-          <div className='timages'>
+          <div className='timage'>
           <img src={Airbnb} alt=''/>
           </div>
     </div>
