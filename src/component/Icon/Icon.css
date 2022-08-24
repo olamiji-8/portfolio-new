@@ -13,6 +13,8 @@
     width: 60px;
 }
 .Icon > .imgs:hover{
-
-
+    transition: transform 100ms ease-in;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    transform: scale(1.07);
 }
