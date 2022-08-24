@@ -10,9 +10,12 @@ const Imgas = () => {
     <div className='projects'>
         <div className='timage'>
           <img src={Enaira} alt=''/>
+          <h3>ZeroGrid</h3>
+          <h5>This is a website created during E-naira hackathon,to improve the usage of E-naira</h5>
           </div>
           <div className='timage'>
           <img src={portfolio} alt=''/>
+          <h5>This is a web application with all information about me and my projet.</h5>
           </div>
           <div className='timage'>
           <img src={blog} alt=''/>

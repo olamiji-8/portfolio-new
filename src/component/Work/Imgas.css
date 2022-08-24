@@ -8,9 +8,16 @@
   transition: transform 100ms ease-in;
 }
 
-.timage > img {
+.timage > img  {
   width:30vw ;
   height: 50vh;
   box-shadow:1px 2px 18px 10px rgba(0, 0, 0, 0.30);
   background-color: white;
+}
+.timage{
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 2px;
+  background-color: white;
+  box-shadow:1px 2px 18px 10px rgba(0, 0, 0, 0.30);
 }
