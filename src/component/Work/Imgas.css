@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
  gap: 3rem;
   display: grid;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 20px;
   transition: transform 100ms ease-in;
 }
