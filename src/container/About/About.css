@@ -57,7 +57,7 @@
     display: flex;
     position: absolute;
     padding: 15px;
-    margin-left: 1110px;
+    margin-left: 1100px;
     cursor: pointer;
 }
 .name{
@@ -111,7 +111,7 @@
     
 
 .hone{
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .name-one{
     color: lightblue;
