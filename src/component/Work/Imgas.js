@@ -26,7 +26,7 @@ const Imgas = () => {
           <div className='timage'>
           <img src={Airbnb} alt=''/>
           <h3>Clone-Airbnb</h3>
-          <h5>This is a clone Airbnb project</h5>
+          <h5 >This is a clone Airbnb project</h5>
           </div>
     </div>
   )
