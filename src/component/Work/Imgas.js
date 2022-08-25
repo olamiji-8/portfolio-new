@@ -16,20 +16,23 @@ const project = [
     title:"Portfolio",
     img:portfolio ,
     content:"This is a web application with all information about me and my projet.",
-    link:"http://portfolio-new-hazel.vercel.app/"
+    link:"http://portfolio-new-hazel.vercel.app/",
+    git:"https://github.com/olamiji-8/portfolio-new.git"
     
   },
   {
     title:"Clone-Airbnb",
     img:Airbnb ,
     content:"This is a clone Airbnb project",
-    link:"https://clone-airbnb-pi.vercel.app/"
+    link:"https://clone-airbnb-pi.vercel.app/",
+    git:"https://github.com/olamiji-8/clone_airbnb.git"
   },
   {
     title:"Blog",
     img:blog ,
     content:"This is a blog website, where articles are posted.",
-    link:"https://blog-three-tan-43.vercel.app/"
+    link:"https://blog-three-tan-43.vercel.app/",
+    git:"https://github.com/olamiji-8/blog.git"
   },
   // {
   //   title:"ZeroGrid",
@@ -49,7 +52,7 @@ const project = [
 
 
     <Row xs={1} md={3} className="g-4">
-      {project.map(({title, img, content,link}, idx) => (
+      {project.map(({title, img, content,link,git}, idx) => (
         <Col>
           <Card>
             <Card.Img variant="top" src={img} />
@@ -58,7 +61,8 @@ const project = [
               <Card.Text>
                {content}
               </Card.Text>
-              <a href={link}>Link here</a>
+              <a href={link}>Link here</a><br/>
+              <a href={git}>Github Link</a>
             </Card.Body>
           </Card>
         </Col>
