@@ -4,26 +4,14 @@
    width: 100vw;
 }
 
-.btn{
-    border:none;
-    outline: none;
-    /* align-items: center; */
-    height: 50px;
-    background-color: aliceblue;
-}
+
 h1{
     text-align: center;
     margin: 0px;
     margin-bottom: 30px;
 
 }
-.info{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    
-    
-}
+
 .info  form  input{
     margin: 10px;
     height: 50px;
@@ -49,7 +37,7 @@ h1{
     height: 50px;
     border-radius: 10px;
     color: white;
-    margin: 30px;
+    
     border: none;
     outline: none;
     font-size: medium;

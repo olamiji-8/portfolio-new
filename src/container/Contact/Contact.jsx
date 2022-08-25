@@ -14,9 +14,9 @@ const Contact = () => {
             <h1>Take A Coffee & Chat With Me</h1>
         </div>
         <div>
-          <div className="d-flex">
+          {/* <div className="d-flex">
             <div className="col-md-6">
-          <div className='d-flex'>
+          <div className='d-flex bol'>
             <img src={email} alt="email" width="10%" />
           <p className=''>olamijisotomi@gmail.com</p>
           </div>
@@ -30,7 +30,7 @@ const Contact = () => {
 
             </div>
 
-          </div>
+          </div> */}
    
         </div>
         <div className='info'>
