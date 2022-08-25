@@ -14,35 +14,35 @@ const Images = () => {
   return (
     <div className="row justify-content-center mt-4">
          <div className="col-md-2 col-4">
-          <img src={dart} alt='' width="30%" />
+          <img src={dart} alt='' width="30%" className="Image" />
           <h3>Dart</h3>
           </div>
         <div className="col-md-2 col-4">
-          <img src={flutter} alt='' width="30%" />
+          <img src={flutter} alt='' width="30%" className="Image"/>
           <h3>Flutter</h3>
           </div>
         <div className="col-md-2 col-4">
-          <img src={python} alt='' width="30%" />
+          <img src={python} alt='' width="30%" className="Image"/>
           <h3>Python</h3>
           </div>
         <div className="col-md-2 col-4">
-          <img src={react} alt='' width="30%" />
+          <img src={react} alt='' width="30%" className="Image"/>
           <h3>React</h3>
           </div>
         <div className="col-md-2 col-4">
-          <img src={firebase} alt='' width="30%" />
+          <img src={firebase} alt='' width="30%" className="Image"/>
           <h3>Firebase</h3>
           </div>
         <div className="col-md-2 col-4">
-          <img src={html} alt='' width="30%" />
+          <img src={html} alt='' width="30%" className="Image"/>
           <h3>Html</h3>
           </div>
         <div className="col-md-2 col-4">
-          <img src={css} alt='' width="30%" />
+          <img src={css} alt='' width="30%" className=""/>
           <h3>Css</h3>
           </div>
         <div className="col-md-2 col-4">
-          <img src={js} alt='' width="30%" />
+          <img src={js} alt='' width="30%"  className=""/>
           <h3>Javascript</h3>
           </div>
        

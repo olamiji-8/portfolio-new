@@ -1,22 +1,4 @@
-.Image{
-  width: 900px;
-  height: 100px;
-  display:flex;
-  flex: 3fr;
-  object-fit: contain;
-  justify-content:space-between;
-  margin-left: 250px;
-  margin-top: 30px;
-    
-  
-}
-
-h3{
-  margin-top: 40px;
-  padding: 1px;
- 
-}
-.Image >.img:hover{
+img:hover{
   border-radius: 60%;
   border: 1px solid lightblue;
   width: 48px;

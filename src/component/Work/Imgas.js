@@ -13,9 +13,9 @@ const Imgas = () => {
 
 const project = [
   {
-    title:"ZeroGrid",
-    img:Enaira ,
-    content:"This is a website created during E-naira hackathon,to improve the usage of E-naira"
+    title:"Portfolio",
+    img:portfolio ,
+    content:"This is a web application with all information about me and my projet."
   },
   {
     title:"ZeroGrid",
