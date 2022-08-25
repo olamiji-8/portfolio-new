@@ -9,13 +9,6 @@ import Resume from '../../assets/Resume.pdf';
 
 const Icon = () => {
   return (
-    // <div className='Icon'>
-    //     <a href='https://www.linkedin.com/in/olamiji-sotomi-9605171a9/'><img src={LinkedIn} alt="" className='imgs'/></a>
-    //     <a href='https://github.com/olamiji-8'><img src={GitHub} alt="" className='imgs'/></a>
-    //     <a href='#contact'><img src={Message} alt="" className='imgs'/></a>
-    //     <a href={Resume}><img src={Person} alt="" className='imgs'/></a>
-    // </div>
-
     <div className="container">
       <div className="row justify-content-center">
 
@@ -23,13 +16,13 @@ const Icon = () => {
       <a href='https://www.linkedin.com/in/olamiji-sotomi-9605171a9/'><img src={LinkedIn} alt="" className='' width="40%" /></a>
       </div>
       <div className="col-2">
-      <a href='https://www.linkedin.com/in/olamiji-sotomi-9605171a9/'><img src={LinkedIn} alt="" className='' width="40%" /></a>
+      <a href='https://github.com/olamiji-8'><img src={GitHub} alt="" className='' width="40%" /></a>
       </div>
       <div className="col-2">
-      <a href='https://www.linkedin.com/in/olamiji-sotomi-9605171a9/'><img src={LinkedIn} alt="" className='' width="40%" /></a>
+      <a href='#contact'><img src={Message} alt="" className='' width="40%" /></a>
       </div>
       <div className="col-2">
-      <a href='https://www.linkedin.com/in/olamiji-sotomi-9605171a9/'><img src={LinkedIn} alt="" className='' width="40%" /></a>
+      <a href={Resume}><img src={Person} alt="" className='' width="40%" /></a>
       </div>
       </div>
     </div>
