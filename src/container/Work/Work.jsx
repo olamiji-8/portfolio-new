@@ -4,8 +4,8 @@ import './Work.css'
 
 const Work = () => {
   return (
-    <div className='Work' id='work'>
-      <h3>PROJECT</h3>
+    <div className='Work py-4' id='work'>
+      <h3 className='py-4'>PROJECT</h3>
         <Imgas/>
     </div>
   )

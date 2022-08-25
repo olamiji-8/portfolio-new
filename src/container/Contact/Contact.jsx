@@ -14,21 +14,40 @@ const Contact = () => {
             <h1>Take A Coffee & Chat With Me</h1>
         </div>
         <div>
-          <div className='display-one'>
-            <img src={email} alt="email"/>
-          <button className='btn'>olamijisotomi@gmail.com</button>
+          <div className="d-flex">
+            <div className="col-md-6">
+          <div className='d-flex'>
+            <img src={email} alt="email" width="10%" />
+          <p className=''>olamijisotomi@gmail.com</p>
           </div>
-          <div className='display-two'>
-            <img src={mobile} alt="mobile"/>
-          <button className='btn'>+2349066274154</button>
+              
+            </div>
+            <div className="col-md-6">
+          <div className='d-flex'>
+            <img src={mobile} alt="mobile" width="10%" />
+          <p className=''>+2349066274154</p>
+          </div>
+
+            </div>
+
           </div>
    
         </div>
         <div className='info'>
           <form action="https://formspree.io/f/xqkjaplw" method="POST">
+          <div className="row justify-content-center">
+            <div className="col-md-5">
+
           <input type="text"  placeholder='Your Name' name='name' required/>
+            </div>
+            <div className="col-md-5">
             <input type="email" placeholder='Your Email' name='email' required/>
-            <textarea rows="4" cols="500" placeholder='Your Message' name='message' required></textarea>
+            </div>
+            <div className="col-md-10">
+            <textarea rows="4" placeholder='Your Message' name='message' required></textarea>
+            </div>
+
+          </div>
             <button className='btn-msg'>Send Message</button>
           </form>     
         </div>
