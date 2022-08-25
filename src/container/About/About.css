@@ -18,27 +18,19 @@
     font-style: italic;
     font-family: cursive;
 }
-.ola{
-    float: left;
-      padding: 20px;
+.ola{  
       border-radius: 10px;
       overflow: hidden; 
       box-shadow:1px 2px 18px 4px rgba(0, 0, 0, 0.75);
       transition: transform 100ms ease-in;
       cursor:pointer;
-      margin-left: 40px;
+      
 }
 
-/* .ola > img{
-    width: 300px;
-    height: 500px;
-    margin-left: 4px;
-    margin-top: -60px;
-    
-}
+
 .ola:hover{
     transform: scale(1.07)
-} */
+} 
 .details{
     float: right;
     margin-left: 400px;

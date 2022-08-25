@@ -4,7 +4,7 @@ import './About.css'
 
 const About = () => {
   return (
-    // <div className='About' id='about'>
+    // <div className='About' >
     //   <div className='carry'>
     //   <h1 className='heading'>ABOUT</h1>
     //   <h2 className='sub-heading'>Who AM I</h2>
@@ -39,12 +39,12 @@ const About = () => {
     // </div>
     <>
     
-    <div className="container">
+    <div className="container" id='about'>
       <h1 className='mt-4 mb-4'>ABOUT</h1>
       <div className="row justify-content-center">
         <div className="col-md-6 text-center">
    
-        <img src={pic} alt='' width='50%' />
+        <img src={pic} alt='' width='50%' className='ola' />
           
         </div>
         <div className="col-md-6">
@@ -74,8 +74,7 @@ const About = () => {
               </li>
              </ul>
     
-    
-      <button className='btn btn-primary my-3' href='#work'>Check out my project</button>
+      <a href='#work'><button className='btn btn-primary my-3'>Check out my project</button></a>
     
       </div>
         </div>
