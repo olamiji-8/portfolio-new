@@ -19,7 +19,7 @@ const Images = () => {
           <h3>React</h3>
           </div>
         <div className="col-md-2 col-4">
-          <img src={firebase} alt='' width="30%" className="Image"/>
+          <img src={firebase} alt='' width="30%" className="Image" style={{marginTop:"-10%"}}/>
           <h3>Firebase</h3>
           </div>
         <div className="col-md-2 col-4">

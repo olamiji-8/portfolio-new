@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div className='bg' id='skills'>
         <h1>Skills & Experiences</h1>
-        <div>
+        <div className='skills_top'>
             <Images/>
         </div>
     </div>
