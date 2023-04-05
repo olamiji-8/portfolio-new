@@ -44,7 +44,7 @@ const About = () => {
       <div className="row justify-content-center">
         <div className="col-md-6 text-center">
    
-        <img src={pic} alt='' width='50%' className='ola' />
+        <img src={pic} alt='' width='40%' className='ola' />
           
         </div>
         <div className="col-md-6">
