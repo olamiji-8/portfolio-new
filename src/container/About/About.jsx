@@ -55,24 +55,10 @@ const About = () => {
          <h3 className='name-one'>Hi, I am</h3>
          <h3 className='name'>Sotomi Olamiji</h3>
          </div>
-           Well, I have been working on web applications, which I started with Html, Css and Javascript and down to react.
-            while still studying at college. Having my own projects, coded mostly in React JS, I have learned a lot while working on these projects. Now I am looking to get a job or an internship to get some experience, and am glad to be interviewing with you here.
-              
-             These are some qualities that I think sets me apart from other candidates
-             <ul>
-              <li>
-              One of the things that distinguish me from other candidates is that I am able to remain calm and focused no matter how difficult the task. I always try to stay positive and find a way out. I am sure that everything happens for a reason and that any mistake can be fixed.
+          <p>I am a frontend developer with experience in HTML, CSS, JavaScript, React framework, Node.js, and Firebase, I have a broad range of skills that enable me to create stunning and functional websites and applications. My knowledge of Html and CSS allows me to create stunning and appealing user interfaces optimized for performance, accessibility, and responsiveness.
 
-              </li>
-              <li>
-             I am a quick learner and constantly improve my skills not only in professional but also in multiple other fields. If hired for the position, I will continue to learn and transfer obtained knowledge and skills to other team members.
-
-              </li>b
-              <li>
-            You will never find a more disciplined person. I am never late and know how to value the time of other people. Especially in the engineering field, where everything should be clear, structured, and meet requirements.
-
-              </li>
-             </ul>
+In addition to my strong foundation in HTML and CSS, I have proficiency in JavaScript which enables me to add interactivity and dynamic behavior to web pages and applications. And my knowledge of JavaScript frameworks such as React allows me to easily build scalable and efficient web applications.
+</p>
     
       <a href='#work'><button className='btn btn-primary my-3'>Check out my project</button></a>
     
