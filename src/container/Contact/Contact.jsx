@@ -46,7 +46,7 @@ const Contact = () => {
             <div className="col-md-10">
             <textarea rows="4" placeholder='Your Message' name='message' required></textarea>
             </div>
-            <button className='btn-msg col-md-3' >Send Message</button>
+            <button className='btn-msg col-md-3' style={{marginTop:"4%"}} >Send Message</button>
           </div>
             
           </form>     
