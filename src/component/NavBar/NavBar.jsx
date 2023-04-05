@@ -1,6 +1,6 @@
 import React from 'react'
 import './NavBar.css'
-import resume from '../../assets/Resume.pdf'
+import resume from '../../assets/Sotomi Olamiji updated Resume.pdf'
 // import {BrowserRouter as Router} from 'react-router-dom';
 // import { HashLink as Link } from 'react-router-hash-link';
 import Container from 'react-bootstrap/Container';
