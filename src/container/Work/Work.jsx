@@ -5,7 +5,7 @@ import './Work.css'
 const Work = () => {
   return (
     <div className='Work py-4' id='work'>
-      <h3 className='py-4'>PROJECT</h3>
+      <h3 className='py-4'>PROJECTS</h3>
         <Imgas/>
     </div>
   )

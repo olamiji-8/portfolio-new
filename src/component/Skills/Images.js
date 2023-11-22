@@ -1,5 +1,5 @@
 import React from "react";
-// import '../../component/Skills/Images.css'
+import '../../component/Skills/Images.css'
 
 import firebase from '../../../src/assets/firebase.png';
 import react from '../../../src/assets/react.png';
@@ -17,37 +17,37 @@ const Images = () => {
         
        
         
-        <div className="col-md-2 col-4">
-          <img src={react} alt='' width="30%" className="Image"/>
-          <h3>React</h3>
+        <div className="col-md-2 col-2">
+          <img src={react} alt='' width="20%" className="Image"/>
+          <h3 className="icon_sx">React</h3>
           </div>
-        <div className="col-md-2 col-4">
-          <img src={firebase} alt='' width="30%" className="Image" style={{marginTop:"-10%"}}/>
-          <h3>Firebase</h3>
+        <div className="col-md-2 col-2">
+          <img src={firebase} alt='' width="20%" className="Image" style={{marginTop:"-10%"}}/>
+          <h3 className="icon_sx">Firebase</h3>
           </div>
-        <div className="col-md-2 col-4">
-          <img src={html} alt='' width="30%" className="Image"/>
-          <h3>Html</h3>
+        <div className="col-md-2 col-2">
+          <img src={html} alt='' width="20%" className="Image"/>
+          <h3 className="icon_sx">Html</h3>
           </div>
-        <div className="col-md-2 col-4">
-          <img src={css} alt='' width="30%" className=""/>
-          <h3>Css</h3>
+        <div className="col-md-2 col-2">
+          <img src={css} alt='' width="20%" className=""/>
+          <h3 className="icon_sx">Css</h3>
           </div>
-        <div className="col-md-2 col-4">
-          <img src={js} alt='' width="30%"  className=""/>
-          <h3>Javascript</h3>
+        <div className="col-md-2 col-2">
+          <img src={js} alt='' width="20%"  className=""/>
+          <h3 className="icon_sx">Javascript</h3>
           </div>
-          <div className="col-md-2 col-4">
-          <img src={Node} alt='' width="30%"  className=""/>
-          <h3>Node JS</h3>
+          <div className="col-md-2 col-2">
+          <img src={Node} alt='' width="20%"  className=""/>
+          <h3 className="icon_sx">Node JS</h3>
           </div>
-          <div className="col-md-2 col-4">
-          <img src={Express} alt='' width="30%"  className=""/>
-          <h3>Express JS</h3>
+          <div className="col-md-2 col-2">
+          <img src={Express} alt='' width="20%"  className=""/>
+          <h3 className="icon_sx">Express JS</h3>
           </div>
-          <div className="col-md-2 col-4">
-          <img src={MongoDB} alt='' width="30%"  className=""/>
-          <h3>MongoDB</h3>
+          <div className="col-md-2 col-2">
+          <img src={MongoDB} alt='' width="20%"  className=""/>
+          <h3 className="icon_sx">MongoDB</h3>
           </div>
        
     </div>
