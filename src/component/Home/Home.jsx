@@ -24,8 +24,8 @@ const Homee = () => {
 
           <h3 className='mt-4'>Hi, I'm <span className="nme"> Olamiji</span></h3>
           
-          <h3 className='para-three'>A Frontend Web Developer</h3>
-          <p className='para-four'>I’m focused on building responsive Frontend web applications while learning & exploring other technologies.</p>
+          <h3 className='para-three'>A Fullstack Web Developer</h3>
+          <p className='para-four'>I’m focused on building responsive web applications while learning & exploring other technologies.</p>
         </div>
          <Icon/> 
     </div>

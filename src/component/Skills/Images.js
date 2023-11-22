@@ -6,6 +6,9 @@ import react from '../../../src/assets/react.png';
 import html from '../../../src/assets/html.png';
 import css from '../../../src/assets/css.png';
 import js from '../../../src/assets/js.png';
+import Node from '../../../src/assets/node js.png';
+import Express from '../../../src/assets/express js.png';
+import MongoDB from '../../../src/assets/mongodb.png';
 
 
 const Images = () => {
@@ -33,6 +36,18 @@ const Images = () => {
         <div className="col-md-2 col-4">
           <img src={js} alt='' width="30%"  className=""/>
           <h3>Javascript</h3>
+          </div>
+          <div className="col-md-2 col-4">
+          <img src={Node} alt='' width="30%"  className=""/>
+          <h3>Node JS</h3>
+          </div>
+          <div className="col-md-2 col-4">
+          <img src={Express} alt='' width="30%"  className=""/>
+          <h3>Express JS</h3>
+          </div>
+          <div className="col-md-2 col-4">
+          <img src={MongoDB} alt='' width="30%"  className=""/>
+          <h3>MongoDB</h3>
           </div>
        
     </div>

@@ -55,9 +55,9 @@ const About = () => {
          <h3 className='name-one'>Hi, I am</h3>
          <h3 className='name'>Sotomi Olamiji</h3>
          </div>
-          <p>I am a frontend developer with experience in HTML, CSS, JavaScript, React framework, Node.js, and Firebase, I have a broad range of skills that enable me to create stunning and functional websites and applications. My knowledge of Html and CSS allows me to create stunning and appealing user interfaces optimized for performance, accessibility, and responsiveness.
+          <p>I am a fullstack developer with experience in HTML, CSS, JavaScript, React framework, Node.js, MongoDB, Express JS and Firebase, I have a broad range of skills that enable me to create stunning and functional websites and applications. My knowledge of Html and CSS allows me to create stunning and appealing user interfaces optimized for performance, accessibility, and responsiveness.
 
-In addition to my strong foundation in HTML and CSS, I have proficiency in JavaScript which enables me to add interactivity and dynamic behavior to web pages and applications. And my knowledge of JavaScript frameworks such as React allows me to easily build scalable and efficient web applications.
+In addition to my strong foundation in HTML and CSS, I have proficiency in JavaScript which enables me to add interactivity and dynamic behavior to web pages and applications. And my knowledge of JavaScript frameworks such as React allows me to easily build scalable and efficient web applications. And adding Mongodb,Express Js and Node js makes my site a server side instead of a client based.
 </p>
     
       <a href='#work'><button className='btn btn-primary my-3'>Check out my project</button></a>

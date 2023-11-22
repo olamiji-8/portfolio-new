@@ -4,7 +4,7 @@ import LinkedIn from '../../assets/linkedIn.png';
 import GitHub from '../../assets/github.png';
 import Message from '../../assets/message.png';
 import Person from '../../assets/person.png';
-import Resume from '../../assets/Sotomi Olamiji updated Resume.pdf';
+import Resume from '../../assets/cv.pdf';
 
 
 const Icon = () => {
